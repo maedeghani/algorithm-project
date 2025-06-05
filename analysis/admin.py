@@ -6,3 +6,4 @@ class AnalysisResultAdmin(admin.ModelAdmin):
     list_filter = ('timestamp', 'algorithm_version')
 
 admin.site.register(AnalysisResult, AnalysisResultAdmin)
+#check git
