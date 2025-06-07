@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'responses',
     'analysis',
     'api',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Questions{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mb-4">Questions</h1>
+    {% if user.is_instructor %}
+    <div class="mb-4">
+        <a href="#" class="btn btn-primary">Create New Question</a>
+    </div>
+    {% endif %}
+    <div class="alert alert-info">
+        This page is under construction. Question management features will be implemented soon.
+    </div>
+</div>
+{% endblock %}
