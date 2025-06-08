@@ -15,5 +15,11 @@ class AnalysisResult(models.Model):
     minimum_similarity_threshold = models.FloatField(default=0.3)
     suspicious_threshold = models.FloatField(default=0.7)
     
+    class Meta:
+        ordering = ['-timestamp']  # Newest first
+
     def __str__(self):
-        return f"Analysis for {self.exam.title} at {self.timestamp}"
+        return f"Analysis for {self.exam.title if self.exam else 'Unknown Exam'} at {self.timestamp.strftime('%Y-%m-%d %H:%M')}"
+
+    def get_absolute_url(self):
+        return reverse('analysis:result_detail', args=[str(self.id)])

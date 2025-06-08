@@ -1,17 +1,28 @@
 {% extends 'base.html' %}
 
-{% block title %}Questions{% endblock %}
+{% block title %}مدیریت سوالات{% endblock %}
 
 {% block content %}
 <div class="container">
-    <h1 class="mb-4">Questions</h1>
-    {% if user.is_instructor %}
-    <div class="mb-4">
-        <a href="#" class="btn btn-primary">Create New Question</a>
-    </div>
+    <h2 class="mb-4">مدیریت سوالات آزمون: {{ exam.title }}</h2>
+    {% if user.is_authenticated and user.is_instructor %}
+    <a href="{% url 'exams:add_question' 1 %}" class="btn btn-success mb-3">ثبت سوال جدید</a>
+    
+    {% if questions %}
+        <div class="list-group">
+            {% for question in questions %}
+                <div class="list-group-item mb-2">
+                    <strong>سوال {{ forloop.counter }}:</strong> {{ question.text }}
+                    <div class="mt-2">
+                        <a href="{% url 'exams:edit_question' question.id %}" class="btn btn-sm btn-warning">ویرایش</a>
+                        <a href="{% url 'exams:delete_question' question.id %}" class="btn btn-sm btn-danger">حذف</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}    
+    {% else %}
+        <p>هنوز سوالی ثبت نشده است.</p>
     {% endif %}
-    <div class="alert alert-info">
-        This page is under construction. Question management features will be implemented soon.
-    </div>
 </div>
 {% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+  <h3>پاسخ‌های شما با موفقیت ثبت شد. ممنون!</h3>
+  <!-- Optionally, link back to exam list or home page -->
+  <a href="{% url 'exams:create_exam' %}">بازگشت به صفحه آزمون‌ها</a>
+</div>
+{% endblock %}

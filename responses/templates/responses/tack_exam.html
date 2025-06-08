@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+
+{% block content %}
+<div class="container mt-4">
+  <h2>آزمون: {{ exam.title }}</h2>
+  <form method="post">
+    {% csrf_token %}
+    {% for question in questions %}
+      <div class="mb-3">
+        <label for="answer_{{ question.id }}" class="form-label">
+          سوال {{ forloop.counter }}: {{ question.text }}
+        </label>
+        <textarea id="answer_{{ question.id }}" name="answer_{{ question.id }}" class="form-control" rows="4"></textarea>
+      </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-primary">ارسال پاسخ‌ها</button>
+  </form>
+</div>
+{% endblock %}

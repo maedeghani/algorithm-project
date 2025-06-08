@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<h3>آزمون‌های من</h3>
+<ul>
+  {% for exam in exams %}
+    <li>{{ exam.title }} - {{ exam.start_time }}</li>
+  {% empty %}
+    <li>آزمونی ایجاد نکرده‌اید.</li>
+  {% endfor %}
+</ul>
+{% endblock %}

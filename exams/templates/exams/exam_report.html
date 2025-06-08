@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>گزارش پاسخ‌ها - {{ exam.title }}</h2>
+<table class="table">
+  <thead>
+    <tr>
+      <th>دانشجو</th>
+      <th>سوال</th>
+      <th>پاسخ</th>
+      <th>درست؟</th>
+      <th>نمره</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for ans in answers %}
+    <tr>
+      <td>{{ ans.user.username }}</td>
+      <td>{{ ans.question.text|truncatewords:5 }}</td>
+      <td>{{ ans.answer_text|truncatewords:10 }}</td>
+      <td>{% if ans.is_correct %}✅{% elif ans.is_correct == False %}❌{% else %}؟{% endif %}</td>
+      <td>{{ ans.score }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

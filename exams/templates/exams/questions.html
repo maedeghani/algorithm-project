@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+  <h2>پاسخ به سوالات آزمون: {{ exam.title }}</h2>
+  <form method="post">
+    {% csrf_token %}
+    {% for question in questions %}
+      <div class="mb-3">
+        <label><strong>{{ forloop.counter }}. {{ question.text }}</strong></label>
+        <textarea name="answer_{{ question.id }}" class="form-control" rows="3"></textarea>
+      </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-primary">ارسال پاسخ‌ها</button>
+  </form>
+</div>
+{% endblock %}
