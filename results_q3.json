@@ -1,0 +1,402 @@
+{
+  "quiz_id": "test_quiz_2025",
+  "question_id": "3",
+  "timestamp": "2025-06-09T07:47:41.540870",
+  "summary": {
+    "total_comparisons": 15,
+    "high_risk_count": 6,
+    "medium_risk_count": 0,
+    "low_risk_count": 9,
+    "highest_similarity": 1.0
+  },
+  "analysis_results": [
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 1.0,
+        "mean_similarity": 1.0,
+        "final_score": 1.0
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "3",
+          "segment1": {
+            "text": "Python is a high-level programming language.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "segment2": {
+            "text": "Python is a high-level programming language.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "similarity_percentage": 100.0
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Dana"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9945,
+        "mean_similarity": 0.9964,
+        "final_score": 0.9615
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "3",
+          "segment1": {
+            "text": "Python is a high-level programming language.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "segment2": {
+            "text": "Python is a high-level programming tool.",
+            "start_index": 0,
+            "end_index": 40
+          },
+          "similarity_percentage": 88.1
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Dana",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9945,
+        "mean_similarity": 0.9964,
+        "final_score": 0.9615
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "3",
+          "segment1": {
+            "text": "Python is a high-level programming tool.",
+            "start_index": 0,
+            "end_index": 40
+          },
+          "segment2": {
+            "text": "Python is a high-level programming language.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "similarity_percentage": 88.1
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Charlie"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9645,
+        "mean_similarity": 0.9657,
+        "final_score": 0.9465
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "3",
+          "segment1": {
+            "text": "Python is a high-level programming language.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "segment2": {
+            "text": "Python is a high-level coding language.",
+            "start_index": 0,
+            "end_index": 39
+          },
+          "similarity_percentage": 89.16
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Charlie",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9645,
+        "mean_similarity": 0.9657,
+        "final_score": 0.9465
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "3",
+          "segment1": {
+            "text": "Python is a high-level coding language.",
+            "start_index": 0,
+            "end_index": 39
+          },
+          "segment2": {
+            "text": "Python is a high-level programming language.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "similarity_percentage": 89.16
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Charlie",
+        "student2_id": "Dana"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9661,
+        "mean_similarity": 0.9682,
+        "final_score": 0.9081
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "3",
+          "segment1": {
+            "text": "Python is a high-level coding language.",
+            "start_index": 0,
+            "end_index": 39
+          },
+          "segment2": {
+            "text": "Python is a high-level programming tool.",
+            "start_index": 0,
+            "end_index": 40
+          },
+          "similarity_percentage": 75.95
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Bob"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8683,
+        "mean_similarity": 0.8659,
+        "final_score": 0.6203
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.53
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8683,
+        "mean_similarity": 0.8659,
+        "final_score": 0.6203
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.53
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.882,
+        "mean_similarity": 0.885,
+        "final_score": 0.6158
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.86,
+        "sentence_length_ratio": 0.86
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.56
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Dana"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8428,
+        "mean_similarity": 0.8457,
+        "final_score": 0.6066
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.62
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8618,
+        "mean_similarity": 0.8347,
+        "final_score": 0.5947
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.86,
+        "sentence_length_ratio": 0.86
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.7
+    },
+    {
+      "student_pair": {
+        "student1_id": "Eve",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8618,
+        "mean_similarity": 0.8347,
+        "final_score": 0.5947
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.86,
+        "sentence_length_ratio": 0.86
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.7
+    },
+    {
+      "student_pair": {
+        "student1_id": "Dana",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8576,
+        "mean_similarity": 0.8293,
+        "final_score": 0.5918
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.86,
+        "sentence_length_ratio": 0.86
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.72
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Charlie"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8229,
+        "mean_similarity": 0.8057,
+        "final_score": 0.5886
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.74
+    },
+    {
+      "student_pair": {
+        "student1_id": "Charlie",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8526,
+        "mean_similarity": 0.8111,
+        "final_score": 0.5848
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.86,
+        "sentence_length_ratio": 0.86
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.77
+    }
+  ],
+  "analysis_metadata": {
+    "algorithm_version": "Enhanced-Embedding-v2",
+    "model_used": "HooshvareLab/bert-base-parsbert-uncased",
+    "threshold_settings": {
+      "minimum_similarity": 0.7,
+      "suspicious_threshold": 0.85
+    },
+    "weighting": {
+      "semantic_weight": 0.6,
+      "segment_weight": 0.3,
+      "stats_weight": 0.1
+    }
+  }
+}

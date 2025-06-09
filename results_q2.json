@@ -1,0 +1,402 @@
+{
+  "quiz_id": "test_quiz_2025",
+  "question_id": "2",
+  "timestamp": "2025-06-09T07:47:38.805323",
+  "summary": {
+    "total_comparisons": 15,
+    "high_risk_count": 6,
+    "medium_risk_count": 0,
+    "low_risk_count": 9,
+    "highest_similarity": 1.0
+  },
+  "analysis_results": [
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Bob"
+      },
+      "similarity_scores": {
+        "cls_similarity": 1.0,
+        "mean_similarity": 1.0,
+        "final_score": 1.0
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "2",
+          "segment1": {
+            "text": "Photosynthesis converts sunlight into energy.",
+            "start_index": 0,
+            "end_index": 45
+          },
+          "segment2": {
+            "text": "Photosynthesis converts sunlight into energy.",
+            "start_index": 0,
+            "end_index": 45
+          },
+          "similarity_percentage": 100.0
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 1.0,
+        "mean_similarity": 1.0,
+        "final_score": 1.0
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "2",
+          "segment1": {
+            "text": "Photosynthesis converts sunlight into energy.",
+            "start_index": 0,
+            "end_index": 45
+          },
+          "segment2": {
+            "text": "Photosynthesis converts sunlight into energy.",
+            "start_index": 0,
+            "end_index": 45
+          },
+          "similarity_percentage": 100.0
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 1.0,
+        "mean_similarity": 1.0,
+        "final_score": 1.0
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "2",
+          "segment1": {
+            "text": "Photosynthesis converts sunlight into energy.",
+            "start_index": 0,
+            "end_index": 45
+          },
+          "segment2": {
+            "text": "Photosynthesis converts sunlight into energy.",
+            "start_index": 0,
+            "end_index": 45
+          },
+          "similarity_percentage": 100.0
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Charlie"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9799,
+        "mean_similarity": 0.9651,
+        "final_score": 0.9525
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "2",
+          "segment1": {
+            "text": "Photosynthesis converts sunlight into energy.",
+            "start_index": 0,
+            "end_index": 45
+          },
+          "segment2": {
+            "text": "Photosynthesis turns sunlight into energy.",
+            "start_index": 0,
+            "end_index": 42
+          },
+          "similarity_percentage": 89.66
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Charlie"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9799,
+        "mean_similarity": 0.9651,
+        "final_score": 0.9525
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "2",
+          "segment1": {
+            "text": "Photosynthesis converts sunlight into energy.",
+            "start_index": 0,
+            "end_index": 45
+          },
+          "segment2": {
+            "text": "Photosynthesis turns sunlight into energy.",
+            "start_index": 0,
+            "end_index": 42
+          },
+          "similarity_percentage": 89.66
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Charlie",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9799,
+        "mean_similarity": 0.9651,
+        "final_score": 0.9525
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "2",
+          "segment1": {
+            "text": "Photosynthesis turns sunlight into energy.",
+            "start_index": 0,
+            "end_index": 42
+          },
+          "segment2": {
+            "text": "Photosynthesis converts sunlight into energy.",
+            "start_index": 0,
+            "end_index": 45
+          },
+          "similarity_percentage": 89.66
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Charlie",
+        "student2_id": "Dana"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9392,
+        "mean_similarity": 0.9419,
+        "final_score": 0.6357
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.71,
+        "sentence_length_ratio": 0.71
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.5
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Dana"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9207,
+        "mean_similarity": 0.9121,
+        "final_score": 0.6213
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.71,
+        "sentence_length_ratio": 0.71
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.52
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Dana"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9207,
+        "mean_similarity": 0.9121,
+        "final_score": 0.6213
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.71,
+        "sentence_length_ratio": 0.71
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.52
+    },
+    {
+      "student_pair": {
+        "student1_id": "Dana",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9207,
+        "mean_similarity": 0.9121,
+        "final_score": 0.6213
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.71,
+        "sentence_length_ratio": 0.71
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.52
+    },
+    {
+      "student_pair": {
+        "student1_id": "Dana",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8678,
+        "mean_similarity": 0.8653,
+        "final_score": 0.6075
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.88,
+        "sentence_length_ratio": 0.88
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.62
+    },
+    {
+      "student_pair": {
+        "student1_id": "Charlie",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8672,
+        "mean_similarity": 0.8639,
+        "final_score": 0.5818
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.62,
+        "sentence_length_ratio": 0.62
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.79
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8288,
+        "mean_similarity": 0.8148,
+        "final_score": 0.5556
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.62,
+        "sentence_length_ratio": 0.62
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.96
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8288,
+        "mean_similarity": 0.8148,
+        "final_score": 0.5556
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.62,
+        "sentence_length_ratio": 0.62
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.96
+    },
+    {
+      "student_pair": {
+        "student1_id": "Eve",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8288,
+        "mean_similarity": 0.8148,
+        "final_score": 0.5556
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.62,
+        "sentence_length_ratio": 0.62
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.96
+    }
+  ],
+  "analysis_metadata": {
+    "algorithm_version": "Enhanced-Embedding-v2",
+    "model_used": "HooshvareLab/bert-base-parsbert-uncased",
+    "threshold_settings": {
+      "minimum_similarity": 0.7,
+      "suspicious_threshold": 0.85
+    },
+    "weighting": {
+      "semantic_weight": 0.6,
+      "segment_weight": 0.3,
+      "stats_weight": 0.1
+    }
+  }
+}

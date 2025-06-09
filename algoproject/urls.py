@@ -1,14 +1,9 @@
 from django.contrib import admin
-from django.urls import path, include
-from django.shortcuts import redirect
-from django.urls import path, include
-
+from django.urls import path
+from analysis.views import detect_cheating, home
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('accounts/', include('accounts.urls')),
-    path('', lambda request: redirect('signup')), 
-    path('responses/', include('responses.urls')),
-    path('exams/', include('exams.urls')),
- # ریدایرکت صفحه‌ی اصلی به signup
+    path('', home, name='home'),
+    path('admin/', admin.site.urls),  # مسیر ادمین
+    path('detect-cheating/<str:quiz_id>/<str:question_id>/', detect_cheating, name='detect_cheating'),
 ]

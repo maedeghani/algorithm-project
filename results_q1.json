@@ -1,0 +1,402 @@
+{
+  "quiz_id": "test_quiz_2025",
+  "question_id": "1",
+  "timestamp": "2025-06-09T07:47:35.988954",
+  "summary": {
+    "total_comparisons": 15,
+    "high_risk_count": 6,
+    "medium_risk_count": 0,
+    "low_risk_count": 9,
+    "highest_similarity": 1.0
+  },
+  "analysis_results": [
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Bob"
+      },
+      "similarity_scores": {
+        "cls_similarity": 1.0,
+        "mean_similarity": 1.0,
+        "final_score": 1.0
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "1",
+          "segment1": {
+            "text": "The quick brown fox jumps over the lazy dog.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "segment2": {
+            "text": "The quick brown fox jumps over the lazy dog.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "similarity_percentage": 100.0
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 1.0,
+        "mean_similarity": 1.0,
+        "final_score": 1.0
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "1",
+          "segment1": {
+            "text": "The quick brown fox jumps over the lazy dog.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "segment2": {
+            "text": "The quick brown fox jumps over the lazy dog.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "similarity_percentage": 100.0
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 1.0,
+        "mean_similarity": 1.0,
+        "final_score": 1.0
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "1",
+          "segment1": {
+            "text": "The quick brown fox jumps over the lazy dog.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "segment2": {
+            "text": "The quick brown fox jumps over the lazy dog.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "similarity_percentage": 100.0
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Charlie"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9777,
+        "mean_similarity": 0.967,
+        "final_score": 0.9731
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "1",
+          "segment1": {
+            "text": "The quick brown fox jumps over the lazy dog.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "segment2": {
+            "text": "The quik brown fox jumpz over the lazy dog.",
+            "start_index": 0,
+            "end_index": 43
+          },
+          "similarity_percentage": 96.55
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Charlie"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9777,
+        "mean_similarity": 0.967,
+        "final_score": 0.9731
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "1",
+          "segment1": {
+            "text": "The quick brown fox jumps over the lazy dog.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "segment2": {
+            "text": "The quik brown fox jumpz over the lazy dog.",
+            "start_index": 0,
+            "end_index": 43
+          },
+          "similarity_percentage": 96.55
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Charlie",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.9777,
+        "mean_similarity": 0.967,
+        "final_score": 0.9731
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [
+        {
+          "question_id": "1",
+          "segment1": {
+            "text": "The quik brown fox jumpz over the lazy dog.",
+            "start_index": 0,
+            "end_index": 43
+          },
+          "segment2": {
+            "text": "The quick brown fox jumps over the lazy dog.",
+            "start_index": 0,
+            "end_index": 44
+          },
+          "similarity_percentage": 96.55
+        }
+      ],
+      "matching_segment_count": 1,
+      "overall_risk_level": "HIGH",
+      "confidence": 1.0
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Dana"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8951,
+        "mean_similarity": 0.8925,
+        "final_score": 0.6363
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.5
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Dana"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8951,
+        "mean_similarity": 0.8925,
+        "final_score": 0.6363
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.5
+    },
+    {
+      "student_pair": {
+        "student1_id": "Dana",
+        "student2_id": "Eve"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8951,
+        "mean_similarity": 0.8925,
+        "final_score": 0.6363
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.5
+    },
+    {
+      "student_pair": {
+        "student1_id": "Charlie",
+        "student2_id": "Dana"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8906,
+        "mean_similarity": 0.8712,
+        "final_score": 0.6286
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 1.0,
+        "sentence_length_ratio": 1.0
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.5
+    },
+    {
+      "student_pair": {
+        "student1_id": "Charlie",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.85,
+        "mean_similarity": 0.8388,
+        "final_score": 0.5733
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.67,
+        "sentence_length_ratio": 0.67
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.84
+    },
+    {
+      "student_pair": {
+        "student1_id": "Alice",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8265,
+        "mean_similarity": 0.8155,
+        "final_score": 0.5593
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.67,
+        "sentence_length_ratio": 0.67
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.94
+    },
+    {
+      "student_pair": {
+        "student1_id": "Bob",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8265,
+        "mean_similarity": 0.8155,
+        "final_score": 0.5593
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.67,
+        "sentence_length_ratio": 0.67
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.94
+    },
+    {
+      "student_pair": {
+        "student1_id": "Eve",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8265,
+        "mean_similarity": 0.8155,
+        "final_score": 0.5593
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.67,
+        "sentence_length_ratio": 0.67
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.94
+    },
+    {
+      "student_pair": {
+        "student1_id": "Dana",
+        "student2_id": "Frank"
+      },
+      "similarity_scores": {
+        "cls_similarity": 0.8402,
+        "mean_similarity": 0.7887,
+        "final_score": 0.5553
+      },
+      "text_statistics_similarity": {
+        "word_count_ratio": 0.67,
+        "sentence_length_ratio": 0.67
+      },
+      "matching_segments": [],
+      "matching_segment_count": 0,
+      "overall_risk_level": "LOW",
+      "confidence": 0.96
+    }
+  ],
+  "analysis_metadata": {
+    "algorithm_version": "Enhanced-Embedding-v2",
+    "model_used": "HooshvareLab/bert-base-parsbert-uncased",
+    "threshold_settings": {
+      "minimum_similarity": 0.7,
+      "suspicious_threshold": 0.85
+    },
+    "weighting": {
+      "semantic_weight": 0.6,
+      "segment_weight": 0.3,
+      "stats_weight": 0.1
+    }
+  }
+}
