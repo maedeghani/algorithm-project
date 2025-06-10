@@ -7,3 +7,4 @@ class AnalysisResultAdmin(admin.ModelAdmin):
     search_fields = ('exam__title', 'algorithm_version')
     ordering = ('-timestamp',)
 admin.site.register(AnalysisResult, AnalysisResultAdmin)
+#check git
